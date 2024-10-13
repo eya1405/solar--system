@@ -1,0 +1,149 @@
+
+/* Image de fond étoilé */
+body {
+    background-image: url('background.webp'); /* Chemin vers l'image */
+    background-size: cover; /* L'image couvre tout l'écran */
+    background-attachment: fixed; /* L'image reste fixe en arrière-plan */
+    background-position: center; /* Centrer l'image */
+    color: white;
+    font-family: 'Arial', sans-serif;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Ajustement des cartes avec Flexbox */
+.card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    z-index: 2;
+}
+
+/* Taille des images dans les cartes */
+.card img {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+.planets-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Ajustement des cartes avec Flexbox */
+.card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
+
+/* Taille des images dans les cartes */
+.card img {
+    width: 100px; /* Largeur de 100px */
+    height: auto;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+/* Styles des titres et du texte */
+.card-body h3 {
+    color: #ffdd57; /* Couleur du titre */
+}
+
+.card-body p {
+    color: #ddd; /* Couleur du texte */
+}
+
+/* Centrer les cartes dans le conteneur */
+.planets-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Espace entre les cartes */
+}
+
+h1, h3, p {
+    color: white;
+}
+/* Image de fond noir avec des étoiles */
+body {
+    background-color: black;
+    overflow: hidden;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    position: relative;
+}
+
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(white, rgba(255, 255, 255, 0)) 1px 1px;
+    background-size: 2px 2px;
+    z-index: 1;
+    pointer-events: none;
+}
+
+/* Ajustement des cartes avec Flexbox */
+.card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    z-index: 2;
+}
+
+/* Taille des images dans les cartes */
+.card img {
+    width: 100px; /* Largeur de 100px */
+    height: auto;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+/* Styles des titres et du texte */
+.card-body h3 {
+    color: #ffdd57; /* Couleur du titre */
+}
+
+.card-body p {
+    color: #ddd; /* Couleur du texte */
+}
+
+/* Centrer les cartes dans le conteneur */
+.planets-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Espace entre les cartes */
+}
+
+h1, h3, p {
+    color: white;
+}
+
+
+
+
+
+
+
+
